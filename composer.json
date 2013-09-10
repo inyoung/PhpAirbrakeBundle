@@ -1,5 +1,5 @@
 {
-    "name": "realestate/php-airbrake-bundle",
+    "name": "realestateconz/php-airbrake-bundle",
     "description": "This helps binds the php-airbrake module into a Symfony2 bundle for easy use with the framework.",
     "type": "symfony-bundle",
     "keywords": ["logging", "exceptions", "airbrake"],
