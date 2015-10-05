@@ -65,11 +65,11 @@ class Client extends AirbrakeClient
         $options = array(
             'environmentName' => $envName,
             'queue'           => $queue,
-            'serverData'      => $request->server->all(),
-            'getData'         => $request->query->all(),
-            'postData'        => $request->request->all(),
-            //'sessionData'     => $request->hasSession() ? $request->getSession()->all() : null,
-            'component'       => $controller,
+            'serverData'      => $serverData,
+            'getData'         => $getData,
+            'postData'        => $postData,
+            //'sessionData'     => $sessionData,
+            'component'       => $component,
             'action'          => $action,
             'projectRoot'     => $projectRoot,
         );
